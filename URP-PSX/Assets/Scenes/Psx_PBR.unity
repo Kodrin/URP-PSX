@@ -242,7 +242,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.97232103, a: 1}
-  m_Intensity: 600
+  m_Intensity: 167.23
   m_Range: 27.29
   m_SpotAngle: 105.53655
   m_InnerSpotAngle: 85.44892
@@ -516,7 +516,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.8
+  m_Intensity: 0.44
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -643,7 +643,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 108.3
+  far clip plane: 189.6
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -869,7 +869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGlobal: 1
-  priority: 0
+  priority: 1
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 7bbe35cdf5d69e14abbb03eccedaa5bd, type: 2}

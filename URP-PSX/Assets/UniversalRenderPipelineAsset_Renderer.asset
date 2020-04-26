@@ -25,8 +25,8 @@ MonoBehaviour:
   m_Name: UniversalRenderPipelineAsset_Renderer
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: 6965443398785072023}
   - {fileID: 2606515335583478340}
+  - {fileID: 6965443398785072023}
   - {fileID: -1925210268287778290}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
@@ -43,8 +43,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_DefaultStencilState:
-    overrideStencilState: 0
-    stencilReference: 0
+    overrideStencilState: 1
+    stencilReference: 2
     stencilCompareFunction: 8
     passOperation: 0
     failOperation: 0

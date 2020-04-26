@@ -62,9 +62,9 @@ MonoBehaviour:
   m_Name: VolumeProfile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -758010384845797820}
   - {fileID: 169896938054019971}
   - {fileID: -2649047749314681680}
+  - {fileID: -758010384845797820}
 --- !u!114 &169896938054019971
 MonoBehaviour:
   m_ObjectHideFlags: 3
