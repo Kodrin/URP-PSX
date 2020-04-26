@@ -24,7 +24,7 @@ The plugin comes fully-featured with a single lit/unlit graph where you can enab
 - Screen-space dithering 
 
 ### The Graph
-<img src="Media/03.PNG.gif" width=100%>
+<img src="Media/03.PNG" width=100%>
 
 ### Compatibility
 
