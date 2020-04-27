@@ -34,7 +34,6 @@ namespace PSX
         static readonly int DitherThreshold = Shader.PropertyToID("_DitherThreshold");
         static readonly int DitherStrength = Shader.PropertyToID("_DitherStrength");
         static readonly int DitherScale = Shader.PropertyToID("_DitherScale");
-
         
         Dithering dithering;
         Material ditheringMaterial;
