@@ -4,16 +4,13 @@ using UnityEngine.Rendering.Universal;
 
 namespace PSX
 {
-    [System.Serializable]
     public class DitheringRenderFeature : ScriptableRendererFeature
     {
-        public Shader ditherShader;
-        public Material ditherMaterial;
         DitheringPass ditheringPass;
 
         public override void Create()
         {
-            ditheringPass = new DitheringPass(RenderPassEvent.BeforeRenderingPostProcessing, ditherShader, ditherMaterial);
+            ditheringPass = new DitheringPass(RenderPassEvent.BeforeRenderingPostProcessing);
         }
 
         //ScripstableRendererFeature is an abstract class, you need this method
@@ -42,16 +39,16 @@ namespace PSX
         Material ditheringMaterial;
         RenderTargetIdentifier currentTarget;
     
-        public DitheringPass(RenderPassEvent evt, Shader shader, Material mat)
+        public DitheringPass(RenderPassEvent evt)
         {
             renderPassEvent = evt;
-            // var shader = Shader.Find(shaderPath);
+            var shader = Shader.Find(shaderPath);
             if (shader == null)
             {
                 Debug.LogError("Shader not found.");
                 return;
             }
-            this.ditheringMaterial = mat;
+            this.ditheringMaterial = CoreUtils.CreateEngineMaterial(shader);
         }
     
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
