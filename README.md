@@ -25,7 +25,7 @@ The plugin comes fully-featured with a single lit/unlit graph where you can enab
 
 *Note: Make sure you set the render features in the pipeline asset*
 
-<img src="Media/04.PNG" width=100%>
+<img src="Media/04.PNG" width=25%>
 
 
 ### The Graph
