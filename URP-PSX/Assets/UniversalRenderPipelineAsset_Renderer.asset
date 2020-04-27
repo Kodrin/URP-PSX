@@ -43,7 +43,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_DefaultStencilState:
-    overrideStencilState: 1
+    overrideStencilState: 0
     stencilReference: 2
     stencilCompareFunction: 8
     passOperation: 0

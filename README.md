@@ -7,6 +7,7 @@ Playstation 1 era retro graphics plugin optimized for Unity's Universal Renderin
 The plugin comes fully-featured with a single lit/unlit graph where you can enable/disable features according to your needs (and even modify them). I segmented every feature into a subgraph to hopefully make it easier to just plug n' play. 
 
 <img src="Media/01.gif" width=100%>
+<img src="Media/02.gif" width=100%>
 
 ### Shadergraph:
 - Lit/Unlit shader variants
@@ -16,12 +17,16 @@ The plugin comes fully-featured with a single lit/unlit graph where you can enab
 - Texture Pixelation for crushing texture resolution
 - Color Precision for lower or higher color Fidelity
 
-<img src="Media/02.gif" width=100%>
 
 ### URP Render Features:
 - Screen-space fog 
 - Screen-space pixelation/color precision adjustments
 - Screen-space dithering 
+
+*Note: Make sure you set the render features in the pipeline asset*
+
+<img src="Media/04.PNG" width=100%>
+
 
 ### The Graph
 <img src="Media/03.PNG" width=100%>
