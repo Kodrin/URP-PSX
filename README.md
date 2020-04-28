@@ -40,6 +40,8 @@ Universal Rendering Pipeline/Shadergraph (7.1.8)
 
 - Unity's Shadergraph still has a long way to go when it comes to creating NPR effects. You might experience some lighting clipping issues if you are using the PBR master node. To fix it, I tweaked some settings in the URP pipeline asset settings so they are barely noticeable. 
 
+*Note: For issues or questions, feel free to drop me an email at Kodrintxps@gmail.com. Ill try my best to answer*
+
 ### References
 
 - [Models open-source from sketchfab](https://sketchfab.com/)
