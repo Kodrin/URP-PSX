@@ -56,4 +56,4 @@ Open-source, use for whatever you want!!! Software is about freedom :)
 
 ### Support 
 
-I developed this plugin out of passion/nostalgia for retro ps1-style horror games. But, if you found this plugin useful and want to show your support, consider sharing it or [buying me a ko-fi](https://ko-fi.com/kodrin). 
+I developed this plugin out of passion/nostalgia for retro ps1-style horror games. But, if you found this plugin useful and want to show your support, consider sharing it, [supporting me on patreon](https://www.patreon.com/Codrin_Mihail) or [buying me a ko-fi](https://ko-fi.com/kodrin). 
